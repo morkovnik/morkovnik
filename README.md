@@ -1,16 +1,20 @@
-### Hi there 👋
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 
-<!--
-**morkovnik/morkovnik** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+class PythonDeveloper:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    def __init__(self):
+        self.name = "Vlad Morkovnik"
+        self.role = "Python Developer"
+        self.language_spoken = ['EN', 'CZ', 'RU']
+        self.skills = ['Python 3.9', 'Linux', 'Oracle DB', 'GIT', 'REST API', 'WLS']
+        self.currently_learning = 'Microsoft Azure'
+        self.email_me = 'morkovnik.vlad@gmail.com'
+
+    def say_hi(self):
+        print("Hi! Nice to meet you, hope you find some of my work interesting.")
+
+
+me = PythonDeveloper()
+me.say_hi()
